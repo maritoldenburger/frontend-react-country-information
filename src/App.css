@@ -1,0 +1,129 @@
+header {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background: #aed06f;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: 2px solid #aed06f;
+    border-radius: 0 8px 8px 0;
+    margin-left: -3px;
+}
+
+.search-bar button:hover {
+    transform: none;
+}
+
+.search-bar input {
+    border: solid 2px #4c9699;
+    border-radius: 8px 0 0 8px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+}
+
+.countries-grid {
+    background-color: #fafafa;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    padding: 30px;
+    column-count: 3;
+}
+
+.countries-grid li {
+    list-style-type: none;
+}
+
+.countries-grid p {
+    margin: 8px 0;
+}
+
+.countries-title {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.country-info-card {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.country-info-title {
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+}
+
+.country-info-card p {
+    margin: 5px 0;
+}
+
+.africa {
+    color: #5b76bc;
+}
+
+.asia {
+    color: #c2575e;
+}
+
+.americas {
+    color: #598051;
+}
+
+.europe {
+    color: #f9d458;
+}
+
+.oceania {
+    color: #9b5ab5;
+}
+
+.default {
+    color: #949494;
+}
