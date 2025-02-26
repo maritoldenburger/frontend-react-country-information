@@ -89,7 +89,6 @@ button:active {
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     display: flex;
-    align-items: baseline;
     margin: 20px 0;
     flex-direction: column;
     padding: 10px;
